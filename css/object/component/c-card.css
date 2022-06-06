@@ -23,11 +23,6 @@ body {
   margin: 0 auto;
 }
 
-.c-card-blog__block:nth-child(n+2) {
-  margin-top: 20px;
-  margin-top: 1.25rem;
-}
-
 .c-card__body {
   position: relative;
   padding-top: 20px;

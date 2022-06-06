@@ -20,17 +20,27 @@ body {
 .c-card-blog {
   width: 296px;
   width: 18.5rem;
-  margin: 0 auto;
-  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur in="SourceAlpha" stdDeviation="5" /><feOffset dx="6" dy="6" result="offsetblur" /><feFlood flood-color="rgba(0,0,0,0.25)" /><feComposite in2="offsetblur" operator="in" /><feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge></filter></svg>#filter');
-  -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, .25));
-          filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, .25));
+  margin: 20px auto 0 auto;
+  margin: 1.25rem auto 0 auto;
+}
+
+.c-card-blog__block:nth-child(n+2) {
+  margin-top: 20px;
+  margin-top: 1.25rem;
+}
+
+.c-card-blog__img img {
+  border-radius: 10px 10px 0 0;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, .25);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, .25);
 }
 
 .c-card-blog__body {
+  border-radius: 0px 0px 10px 10px;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, .25);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, .25);
   padding: 20px;
   padding: 1.25rem;
-  background-color: #D2D2D2;
-  border-radius: 0px 0px 10px 10px;
 }
 
 .c-card-blog__title {

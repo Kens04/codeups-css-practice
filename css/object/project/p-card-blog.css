@@ -1,0 +1,23 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.u-desktop {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .u-desktop {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-mobile {
+    display: none;
+  }
+}
+
+.p-card-blog__body {
+  background-color: #D2D2D2;
+}
+/*# sourceMappingURL=p-card-blog.css.map */
