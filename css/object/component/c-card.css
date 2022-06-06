@@ -1,0 +1,63 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.u-desktop {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .u-desktop {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-mobile {
+    display: none;
+  }
+}
+
+.c-card {
+  width: 320px;
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.c-card-blog__block:nth-child(n+2) {
+  margin-top: 20px;
+  margin-top: 1.25rem;
+}
+
+.c-card__body {
+  position: relative;
+  padding-top: 20px;
+  padding-top: 1.25rem;
+  padding-right: 20px;
+  padding-right: 1.25rem;
+  padding-bottom: 25px;
+  padding-bottom: 1.5625rem;
+  padding-left: 10px;
+  padding-left: 0.625rem;
+  background-color: #F7F7F7;
+  border-left: 50px solid #AF9E97;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.c-card__title {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  font-size: 1.25rem;
+  color: #AF9E97;
+}
+
+.c-card__text {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1rem;
+  color: #000;
+  margin-top: 10px;
+  margin-top: 0.625rem;
+}
+/*# sourceMappingURL=c-card.css.map */

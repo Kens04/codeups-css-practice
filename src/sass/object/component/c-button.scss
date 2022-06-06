@@ -1,0 +1,14 @@
+@use "global" as *;
+
+.c-button {
+  line-height: 1;
+  color: $white;
+  background-color: $btn_color;
+  display: inline-block;
+  font-size: rem(24);
+  font-weight: $bold;
+  font-family: $jp-font;
+  text-transform: uppercase;
+  border-radius: 20px;
+  padding: rem(15.5) rem(80);
+}

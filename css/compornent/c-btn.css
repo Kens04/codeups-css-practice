@@ -1,0 +1,26 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.u-desktop {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .u-desktop {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-mobile {
+    display: none;
+  }
+}
+
+.c-btn {
+  color: #F7F7F7;
+  background-color: #fff;
+  padding: 10px 80px;
+  padding: 0.625rem 5rem;
+}
+/*# sourceMappingURL=c-btn.css.map */

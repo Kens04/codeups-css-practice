@@ -1,0 +1,33 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.u-desktop {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .u-desktop {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-mobile {
+    display: none;
+  }
+}
+
+.c-button {
+  line-height: 1;
+  color: #F7F7F7;
+  background-color: #4D4D4D;
+  display: inline-block;
+  font-size: 24px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Noto Sans JP", sans-serif;
+  border-radius: 20px;
+  padding: 15.5px 80px;
+  padding: 0.96875rem 5rem;
+}
+/*# sourceMappingURL=c-btn.css.map */

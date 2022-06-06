@@ -1,0 +1,40 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.u-desktop {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .u-desktop {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-mobile {
+    display: none;
+  }
+}
+
+.c-section-header {
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+  color: #000;
+}
+
+.c-section-header__title {
+  font-weight: 700;
+  font-size: 32px;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.c-section-header__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1rem;
+  border-bottom: 1px solid #005700;
+  display: inline-block;
+}
+/*# sourceMappingURL=c-section-header.css.map */

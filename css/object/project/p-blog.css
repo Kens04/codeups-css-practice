@@ -1,0 +1,25 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.u-desktop {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .u-desktop {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-mobile {
+    display: none;
+  }
+}
+
+.p-blog-block {
+  margin-top: 20px;
+  margin-top: 1.25rem;
+  text-align: center;
+}
+/*# sourceMappingURL=p-blog.css.map */

@@ -1,0 +1,32 @@
+@use "global" as *;
+
+.c-card-blog {
+  width: rem(296);
+  margin: 0 auto;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.25));
+}
+
+.c-card-blog__img {
+
+}
+
+.c-card-blog__body {
+  padding: rem(20);
+  background-color: #D2D2D2;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.c-card-blog__title {
+  font-family: $jp-font;
+  font-weight: $normal;
+  font-size: rem(20);
+  color: $black;
+}
+
+.c-card-blog__text {
+  font-family: $jp-font;
+  font-weight: $normal;
+  font-size: rem(16);
+  color: $black;
+  margin-top: rem(10);
+}

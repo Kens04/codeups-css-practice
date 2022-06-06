@@ -1,0 +1,40 @@
+@use "global" as *;
+
+.c-card {
+  width: rem(320);
+  margin: 0 auto;
+}
+
+.c-card-blog__block:nth-child(n + 2) {
+  margin-top: rem(20);
+}
+
+.c-card__img {
+
+}
+
+.c-card__body {
+  position: relative;
+  padding-top: rem(20);
+  padding-right: rem(20);
+  padding-bottom: rem(25);
+  padding-left: rem(10);
+  background-color: $white;
+  border-left: 50px solid #AF9E97;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.c-card__title {
+  font-family: $jp-font;
+  font-weight: $bold;
+  font-size: rem(20);
+  color: #AF9E97;
+}
+
+.c-card__text {
+  font-family: $jp-font;
+  font-weight: $normal;
+  font-size: rem(16);
+  color: $black;
+  margin-top: rem(10);
+}

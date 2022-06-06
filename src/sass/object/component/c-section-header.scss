@@ -1,0 +1,20 @@
+@use "global" as *;
+
+.c-section-header {
+  font-family: $jp-font;
+  text-align: center;
+  color: $black;
+}
+
+.c-section-header__title {
+  font-weight: $bold;
+  font-size: rem(32);
+  text-transform: uppercase;
+}
+
+.c-section-header__subtitle {
+  font-weight: $normal;
+  font-size: rem(16);
+  border-bottom: 1px solid #005700;
+  display: inline-block;
+}

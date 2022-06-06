@@ -1,0 +1,310 @@
+@charset "UTF-8";
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.u-desktop {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .u-desktop {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-mobile {
+    display: none;
+  }
+}
+
+/* リキッドレイアウト対応 */
+html {
+  font-size: 16px;
+}
+@media (max-width: 375px) {
+  html {
+    font-size: 4.2666666667vw;
+  }
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 1.6vw;
+  }
+}
+@media (min-width: 1000px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* pcの電話番号発信対応 */
+@media screen and (min-width: 768px) {
+  a[href^="tel:"] {
+    pointer-events: none;
+  }
+}
+
+/* ホバー */
+a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+@media screen and (min-width: 768px) {
+  a:hover {
+    opacity: 0.8;
+  }
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul,
+ol {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core root defaults */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul,
+ol {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+  width: 100%;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Blur images when they have no alt attribute */
+img:not([alt]) {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur stdDeviation="10" /></filter></svg>#filter');
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+}
+
+/* フォームリセット */
+input,
+button,
+select,
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  font: inherit;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type=checkbox],
+input[type=radio] {
+  display: none;
+}
+
+input[type=submit],
+input[type=button],
+label,
+button,
+select {
+  cursor: pointer;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.c-button {
+  line-height: 1;
+  color: #F7F7F7;
+  background-color: #4D4D4D;
+  display: inline-block;
+  font-size: 24px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Noto Sans JP", sans-serif;
+  text-transform: uppercase;
+  border-radius: 20px;
+  padding: 15.5px 80px;
+  padding: 0.96875rem 5rem;
+}
+
+.c-card-blog {
+  width: 296px;
+  width: 18.5rem;
+  margin: 0 auto;
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur in="SourceAlpha" stdDeviation="5" /><feOffset dx="6" dy="6" result="offsetblur" /><feFlood flood-color="rgba(0,0,0,0.25)" /><feComposite in2="offsetblur" operator="in" /><feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge></filter></svg>#filter');
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, .25));
+          filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, .25));
+}
+
+.c-card-blog__body {
+  padding: 20px;
+  padding: 1.25rem;
+  background-color: #D2D2D2;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.c-card-blog__title {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-size: 1.25rem;
+  color: #000;
+}
+
+.c-card-blog__text {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1rem;
+  color: #000;
+  margin-top: 10px;
+  margin-top: 0.625rem;
+}
+
+.c-card {
+  width: 320px;
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.c-card-blog__block:nth-child(n+2) {
+  margin-top: 20px;
+  margin-top: 1.25rem;
+}
+
+.c-card__body {
+  position: relative;
+  padding-top: 20px;
+  padding-top: 1.25rem;
+  padding-right: 20px;
+  padding-right: 1.25rem;
+  padding-bottom: 25px;
+  padding-bottom: 1.5625rem;
+  padding-left: 10px;
+  padding-left: 0.625rem;
+  background-color: #F7F7F7;
+  border-left: 50px solid #AF9E97;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.c-card__title {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  font-size: 1.25rem;
+  color: #AF9E97;
+}
+
+.c-card__text {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1rem;
+  color: #000;
+  margin-top: 10px;
+  margin-top: 0.625rem;
+}
+
+.c-section-header {
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+  color: #000;
+}
+
+.c-section-header__title {
+  font-weight: 700;
+  font-size: 32px;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.c-section-header__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1rem;
+  border-bottom: 1px solid #005700;
+  display: inline-block;
+}
+
+.l-inner {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media screen and (min-width: 768px) {
+  .l-inner {
+    max-width: 1050px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}
+
+.p-blog-block {
+  margin-top: 20px;
+  margin-top: 1.25rem;
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
