@@ -351,4 +351,18 @@ select::-ms-expand {
 .p-card-staff-blog__body {
   background-color: #F7F7F7;
 }
+
+.p-staff-blog-block {
+  background-color: rgba(175, 158, 151, .6);
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  padding-left: 15px;
+  padding-left: 0.9375rem;
+  padding-right: 15px;
+  padding-right: 0.9375rem;
+}
+
+.p-staff-blog__text {
+  text-align: center;
+}
 /*# sourceMappingURL=styles.css.map */
