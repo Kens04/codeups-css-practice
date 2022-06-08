@@ -19,9 +19,14 @@
   <link rel="”icon”" href="" />
   <!-- css -->
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
   <link rel="stylesheet" href="./css/styles.css">
   <!-- JavaScript -->
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script defer src="./js/script.js"></script>
 </head>
 <body>
@@ -193,10 +198,72 @@
     </div>
   </section>
 
-  <div class="c-section-header">
-    <h2 class="c-section-header__title">blog</h2>
-    <p class="c-section-header__subtitle">ブログ</p>
-  </div>
+  <section class="l-works p-works">
+    <div class="p-works__inner l-inner">
+      <div class="c-section-header">
+        <h2 class="c-section-header__title">works</h2>
+        <p class="c-section-header__subtitle">実績</p>
+      </div>
+      <div class="p-works__textblock">
+        <p class="p-works__text">これまでに当社にてインテリアコーディネートを担当させていただきました実績をご紹介させていただきます。<br>店舗からご自宅まで様々なコーディネートを行っております。</p>
+      </div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="c-card-blog__block">
+              <div class="c-card-blog__img">
+                <img src="./images/common/works_1.jpg" alt="スタッフ画像6">
+              </div>
+              <div class="c-card-blog__body p-card-staff-blog__body">
+                <h3 class="c-card-blog__title">N様邸</h3>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="c-card-blog__block">
+              <div class="c-card-blog__img">
+                <img src="./images/common/" alt="スタッフ画像6">
+              </div>
+              <div class="c-card-blog__body p-card-staff-blog__body">
+                <h3 class="c-card-blog__title">Restaurant O様</h3>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="c-card-blog__block">
+              <div class="c-card-blog__img">
+                <img src="./images/common/staff_6.jpg" alt="スタッフ画像6">
+              </div>
+              <div class="c-card-blog__body p-card-staff-blog__body">
+                <h3 class="c-card-blog__title">HOTEL Q様</h3>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="c-card-blog__block">
+              <div class="c-card-blog__img">
+                <img src="./images/common/staff_6.jpg" alt="スタッフ画像6">
+              </div>
+              <div class="c-card-blog__body p-card-staff-blog__body">
+                <h3 class="c-card-blog__title">K様邸</h3>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="c-card-blog__block">
+              <div class="c-card-blog__img">
+                <img src="./images/common/staff_6.jpg" alt="スタッフ画像6">
+              </div>
+              <div class="c-card-blog__body p-card-staff-blog__body">
+                <h3 class="c-card-blog__title">H様邸</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <div class="c-card p-card">
     <div class="c-card__img">
@@ -207,8 +274,6 @@
         <p class="c-card__text">空間デザイナーをお呼びして、お部屋をおしゃれにコーディネート！プロからのアドバイスをも...</p>
       </div>
   </div>
-
-<a href="#" class="c-button">blog</a>
 
 </div>
 </body>
