@@ -5,8 +5,16 @@
   margin: 0 auto;
 }
 
+.c-card:nth-child(n + 2) {
+  margin-top: rem(30);
+}
+
 .c-card__img {
 
+}
+
+.c-card__img img {
+  border-radius: 10px 10px 0 0;
 }
 
 .c-card__body {

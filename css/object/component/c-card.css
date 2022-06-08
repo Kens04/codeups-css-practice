@@ -23,6 +23,15 @@ body {
   margin: 0 auto;
 }
 
+.c-card:nth-child(n+2) {
+  margin-top: 30px;
+  margin-top: 1.875rem;
+}
+
+.c-card__img img {
+  border-radius: 10px 10px 0 0;
+}
+
 .c-card__body {
   position: relative;
   padding-top: 20px;

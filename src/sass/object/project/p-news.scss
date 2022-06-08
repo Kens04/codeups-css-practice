@@ -3,9 +3,32 @@
 .p-news {
   background-color: #F1F0F0;
   padding-top: rem(14);
+  padding-bottom: rem(56);
 }
 
 .p-news__header {
   text-align: center;
   display: inline-block;
+}
+
+.p-news__textblock {
+  margin-top: rem(30);
+}
+
+.p-news__text {
+  text-align: center;
+}
+
+.p-news-card {
+  margin-top: rem(30);
+}
+
+.p-news__button-block {
+  text-align: center;
+  margin-top: rem(30);
+}
+
+.p-news__button {
+  background-color: $btn_color;
+  color: $white;
 }
