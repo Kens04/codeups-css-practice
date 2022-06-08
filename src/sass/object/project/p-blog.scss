@@ -17,12 +17,21 @@
   z-index: -1;
 }
 
+.p-blog__header {
+  text-align: center;
+}
+
 .p-blog-block {
   margin-top: rem(20);
   text-align: center;
 }
 
-.p-blog__button {
+.p-blog__button-block {
   text-align: center;
   margin-top: rem(20);
+}
+
+.p-blog__button {
+  background-color: $btn_color;
+  color: $white;
 }

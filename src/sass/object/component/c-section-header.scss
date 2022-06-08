@@ -2,7 +2,6 @@
 
 .c-section-header {
   font-family: $jp-font;
-  text-align: center;
   color: $black;
 }
 
@@ -15,6 +14,6 @@
 .c-section-header__subtitle {
   font-weight: $normal;
   font-size: rem(16);
-  border-bottom: 1px solid #005700;
+  border-bottom: 2px solid #005700;
   display: inline-block;
 }

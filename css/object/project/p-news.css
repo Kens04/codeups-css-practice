@@ -1,0 +1,30 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.u-desktop {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .u-desktop {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-mobile {
+    display: none;
+  }
+}
+
+.p-news {
+  background-color: #F1F0F0;
+  padding-top: 14px;
+  padding-top: 0.875rem;
+}
+
+.p-news__header {
+  text-align: center;
+  display: inline-block;
+}
+/*# sourceMappingURL=p-news.css.map */

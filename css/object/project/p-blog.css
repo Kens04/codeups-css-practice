@@ -37,15 +37,24 @@ body {
   z-index: -1;
 }
 
+.p-blog__header {
+  text-align: center;
+}
+
 .p-blog-block {
   margin-top: 20px;
   margin-top: 1.25rem;
   text-align: center;
 }
 
-.p-blog__button {
+.p-blog__button-block {
   text-align: center;
   margin-top: 20px;
   margin-top: 1.25rem;
+}
+
+.p-blog__button {
+  background-color: #4D4D4D;
+  color: #F7F7F7;
 }
 /*# sourceMappingURL=p-blog.css.map */

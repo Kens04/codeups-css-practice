@@ -19,7 +19,6 @@ body {
 
 .c-section-header {
   font-family: "Noto Sans JP", sans-serif;
-  text-align: center;
   color: #000;
 }
 
@@ -34,7 +33,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   font-size: 1rem;
-  border-bottom: 1px solid #005700;
+  border-bottom: 2px solid #005700;
   display: inline-block;
 }
 /*# sourceMappingURL=c-section-header.css.map */

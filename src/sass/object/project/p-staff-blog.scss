@@ -1,5 +1,9 @@
 @use "global" as *;
 
+.p-staff-blog__header {
+  text-align: center;
+}
+
 .p-staff-blog-block {
   background-color: #AF9E9799;
   width: 100vw;
@@ -8,22 +12,23 @@
   padding-right: rem(15);
 }
 
-// .p-staff-blog-block::before {
-//   content: "";
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   right: 0;
-//   width: 100%;
-//   height: 100%;
-//   background-color: #AF9E9799;
-//   z-index: -1;
-// }
-
-// .p-staff-blog__inner {
-//   background-color: #AF9E9799;
-// }
+.p-staff-blog__textblock {
+  padding-top: rem(10);
+  margin-top: rem(30);
+}
 
 .p-staff-blog__text {
   text-align: center;
+}
+
+.p-staff-blog__button-block {
+  padding-top: rem(40);
+  padding-bottom: rem(40);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.p-staff-blog__button {
+  background-color: $white;
+  color: $btn_color;
 }
