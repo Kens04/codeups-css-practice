@@ -16,9 +16,4 @@ body {
     display: none;
   }
 }
-
-.swiper-slide:nth-child(n+2) {
-  margin-left: 15px;
-  margin-left: 0.9375rem;
-}
 /*# sourceMappingURL=p-works.css.map */

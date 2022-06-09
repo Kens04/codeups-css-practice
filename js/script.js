@@ -47,6 +47,9 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
     return false;
   });
 
-  var swiper = new Swiper(".mySwiper", {});
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 15,
+  });
 
 });

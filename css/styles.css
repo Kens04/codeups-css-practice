@@ -470,9 +470,4 @@ select::-ms-expand {
   background-color: #F7F7F7;
   color: #4D4D4D;
 }
-
-.swiper-slide:nth-child(n+2) {
-  margin-left: 15px;
-  margin-left: 0.9375rem;
-}
 /*# sourceMappingURL=styles.css.map */
