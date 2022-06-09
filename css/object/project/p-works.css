@@ -1,0 +1,24 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.u-desktop {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .u-desktop {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-mobile {
+    display: none;
+  }
+}
+
+.swiper-slide:nth-child(n+2) {
+  margin-left: 15px;
+  margin-left: 0.9375rem;
+}
+/*# sourceMappingURL=p-works.css.map */
