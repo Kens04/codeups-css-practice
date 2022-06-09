@@ -1,0 +1,24 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.u-desktop {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .u-desktop {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-mobile {
+    display: none;
+  }
+}
+
+.l-works {
+  margin-top: 50px;
+  margin-top: 3.125rem;
+}
+/*# sourceMappingURL=l-works.css.map */

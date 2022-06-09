@@ -1,1 +1,58 @@
 @use "global" as *;
+
+.p-works {
+  position: relative;
+}
+
+.p-works::before {
+  position: absolute;
+  content: "";
+  background-color: #505C4B80;
+  width: rem(260);
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.p-works-section__header {
+  text-align: right;
+}
+
+.p-works__header {
+  display: inline-block;
+  text-align: center;
+}
+
+.p-works__textblock {
+  margin-top: rem(10);
+}
+
+.p-works__text {
+  text-align: center;
+}
+
+.p-card-works__body {
+  border-left: 50px solid #6E6B5C;
+}
+
+.p-card-works__title {
+  text-align: center;
+}
+
+.p-works__Swiper {
+  margin-top: rem(20);
+}
+
+.p-works__button-block {
+  padding-top: rem(40);
+  padding-bottom: rem(100);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.p-works__button {
+  background-color: $white;
+  color: $btn_color;
+  border: 2px solid #4D4D4D;
+}

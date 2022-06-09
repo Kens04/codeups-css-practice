@@ -47,9 +47,9 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
     return false;
   });
 
-  var swiper = new Swiper(".mySwiper", {
+  var swiper = new Swiper(".p-works__Swiper", {
     slidesPerView: 1,
-    spaceBetween: 15,
+    spaceBetween: 0,
   });
 
 });
