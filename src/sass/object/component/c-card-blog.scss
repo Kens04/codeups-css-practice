@@ -3,14 +3,16 @@
 .c-card-blog {
   width: rem(296);
   margin: rem(20) auto 0 auto;
-}
-
-.c-card-blog__block {
-
+  @include mq(md) {
+    width: 100%;
+  }
 }
 
 .c-card-blog__block:nth-child(n + 2) {
   margin-top: rem(20);
+  @include mq(md) {
+    margin-top: initial;
+  }
 }
 
 .c-card-blog__img img {

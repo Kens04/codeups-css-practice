@@ -20,4 +20,10 @@ body {
 .p-card-blog__body {
   background-color: #D2D2D2;
 }
+
+@media screen and (min-width: 768px) {
+  .p-card-blog__block:nth-child(n+2) {
+    margin-left: 3.5rem;
+  }
+}
 /*# sourceMappingURL=p-card-blog.css.map */

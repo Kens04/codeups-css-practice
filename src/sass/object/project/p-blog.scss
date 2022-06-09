@@ -2,7 +2,8 @@
 
 .p-blog {
   position: relative;
-  padding-bottom: rem(160);
+  padding-top: rem(60);
+  padding-bottom: rem(140);
 }
 
 .p-blog::before {
@@ -15,7 +16,11 @@
   width: 100%;
   height: 100%;
   z-index: -1;
+  @include mq(md) {
+    max-width: 50%;
+  }
 }
+
 
 .p-blog__header {
   text-align: center;
@@ -24,11 +29,33 @@
 .p-blog-block {
   margin-top: rem(20);
   text-align: center;
+  @include mq(md) {
+    margin-top: rem(48);
+  }
+}
+
+.p-blog__text-pc {
+  display: none;
+  @include mq(md) {
+    display: block;
+  }
+}
+
+.p-blog__card {
+  margin: rem(20) auto 0 auto;
+  @include mq(md) {
+    display: flex;
+    justify-content: center;
+    margin: rem(48) auto 0 auto;
+  }
 }
 
 .p-blog__button-block {
   text-align: center;
   margin-top: rem(20);
+  @include mq(md) {
+    margin-top: rem(57);
+  }
 }
 
 .p-blog__button {

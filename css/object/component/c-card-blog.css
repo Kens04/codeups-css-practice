@@ -23,10 +23,21 @@ body {
   margin: 20px auto 0 auto;
   margin: 1.25rem auto 0 auto;
 }
+@media screen and (min-width: 768px) {
+  .c-card-blog {
+    width: 100%;
+  }
+}
 
 .c-card-blog__block:nth-child(n+2) {
   margin-top: 20px;
   margin-top: 1.25rem;
+}
+@media screen and (min-width: 768px) {
+  .c-card-blog__block:nth-child(n+2) {
+    margin-top: 0;
+    margin-top: initial;
+  }
 }
 
 .c-card-blog__img img {

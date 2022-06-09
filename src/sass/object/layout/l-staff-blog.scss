@@ -1,5 +1,7 @@
 @use "global" as *;
 
 .l-staff-blog {
-  
+  @include mq(md) {
+    margin-top: rem(80);
+  }
 }

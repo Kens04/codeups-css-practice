@@ -28,6 +28,11 @@ body {
   font-size: 2rem;
   text-transform: uppercase;
 }
+@media screen and (min-width: 768px) {
+  .c-section-header__title {
+    font-size: 3rem;
+  }
+}
 
 .c-section-header__subtitle {
   font-weight: 400;
@@ -35,5 +40,10 @@ body {
   font-size: 1rem;
   border-bottom: 2px solid #005700;
   display: inline-block;
+}
+@media screen and (min-width: 768px) {
+  .c-section-header__subtitle {
+    font-size: 1.5rem;
+  }
 }
 /*# sourceMappingURL=c-section-header.css.map */

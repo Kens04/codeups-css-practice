@@ -182,8 +182,13 @@ select::-ms-expand {
   font-family: "Noto Sans JP", sans-serif;
   text-transform: uppercase;
   border-radius: 20px;
-  padding: 15.5px 80px;
-  padding: 0.96875rem 5rem;
+  padding: 15.5px 81.3px;
+  padding: 0.96875rem 5.08125rem;
+}
+@media screen and (min-width: 768px) {
+  .c-button {
+    padding: 1.3125rem 6.9375rem;
+  }
 }
 
 .c-card-blog {
@@ -192,10 +197,21 @@ select::-ms-expand {
   margin: 20px auto 0 auto;
   margin: 1.25rem auto 0 auto;
 }
+@media screen and (min-width: 768px) {
+  .c-card-blog {
+    width: 100%;
+  }
+}
 
 .c-card-blog__block:nth-child(n+2) {
   margin-top: 20px;
   margin-top: 1.25rem;
+}
+@media screen and (min-width: 768px) {
+  .c-card-blog__block:nth-child(n+2) {
+    margin-top: 0;
+    margin-top: initial;
+  }
 }
 
 .c-card-blog__img img {
@@ -310,6 +326,11 @@ select::-ms-expand {
   font-size: 2rem;
   text-transform: uppercase;
 }
+@media screen and (min-width: 768px) {
+  .c-section-header__title {
+    font-size: 3rem;
+  }
+}
 
 .c-section-header__subtitle {
   font-weight: 400;
@@ -317,6 +338,11 @@ select::-ms-expand {
   font-size: 1rem;
   border-bottom: 2px solid #005700;
   display: inline-block;
+}
+@media screen and (min-width: 768px) {
+  .c-section-header__subtitle {
+    font-size: 1.5rem;
+  }
 }
 
 .l-blog {
@@ -344,6 +370,12 @@ select::-ms-expand {
   margin-top: 3.125rem;
 }
 
+@media screen and (min-width: 768px) {
+  .l-staff-blog {
+    margin-top: 5rem;
+  }
+}
+
 .l-works {
   margin-top: 50px;
   margin-top: 3.125rem;
@@ -351,8 +383,10 @@ select::-ms-expand {
 
 .p-blog {
   position: relative;
-  padding-bottom: 160px;
-  padding-bottom: 10rem;
+  padding-top: 60px;
+  padding-top: 3.75rem;
+  padding-bottom: 140px;
+  padding-bottom: 8.75rem;
 }
 
 .p-blog::before {
@@ -368,6 +402,11 @@ select::-ms-expand {
   height: 100%;
   z-index: -1;
 }
+@media screen and (min-width: 768px) {
+  .p-blog::before {
+    max-width: 50%;
+  }
+}
 
 .p-blog__header {
   text-align: center;
@@ -378,11 +417,46 @@ select::-ms-expand {
   margin-top: 1.25rem;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .p-blog-block {
+    margin-top: 3rem;
+  }
+}
+
+.p-blog__text-pc {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .p-blog__text-pc {
+    display: block;
+  }
+}
+
+.p-blog__card {
+  margin: 20px auto 0 auto;
+  margin: 1.25rem auto 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .p-blog__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 3rem auto 0 auto;
+  }
+}
 
 .p-blog__button-block {
   text-align: center;
   margin-top: 20px;
   margin-top: 1.25rem;
+}
+@media screen and (min-width: 768px) {
+  .p-blog__button-block {
+    margin-top: 3.5625rem;
+  }
 }
 
 .p-blog__button {
@@ -392,6 +466,12 @@ select::-ms-expand {
 
 .p-card-blog__body {
   background-color: #D2D2D2;
+}
+
+@media screen and (min-width: 768px) {
+  .p-card-blog__block:nth-child(n+2) {
+    margin-left: 3.5rem;
+  }
 }
 
 .p-card-staff-blog__body {
@@ -460,9 +540,67 @@ select::-ms-expand {
   margin-top: 30px;
   margin-top: 1.875rem;
 }
+@media screen and (min-width: 768px) {
+  .p-staff-blog__textblock {
+    padding-top: 0;
+    padding-top: initial;
+    margin-top: 2rem;
+  }
+}
 
 .p-staff-blog__text {
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .p-staff-blog__text-sp {
+    display: none;
+  }
+}
+
+.p-staff-blog__card {
+  margin: 20px auto 0 auto;
+  margin: 1.25rem auto 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .p-staff-blog__card {
+    max-width: 62.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 2rem auto 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .p-staff-blog-card__block:nth-child(n+2) {
+    margin-left: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .p-staff-blog-card__block:nth-child(4) {
+    margin-left: 0;
+    margin-left: initial;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .p-staff-blog-card__block:nth-child(n+4) {
+    margin-top: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .p-staff-blog-card__block {
+    width: 18.5rem;
+  }
 }
 
 .p-staff-blog__button-block {

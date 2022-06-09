@@ -37,9 +37,67 @@ body {
   margin-top: 30px;
   margin-top: 1.875rem;
 }
+@media screen and (min-width: 768px) {
+  .p-staff-blog__textblock {
+    padding-top: 0;
+    padding-top: initial;
+    margin-top: 2rem;
+  }
+}
 
 .p-staff-blog__text {
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .p-staff-blog__text-sp {
+    display: none;
+  }
+}
+
+.p-staff-blog__card {
+  margin: 20px auto 0 auto;
+  margin: 1.25rem auto 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .p-staff-blog__card {
+    max-width: 62.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 2rem auto 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .p-staff-blog-card__block:nth-child(n+2) {
+    margin-left: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .p-staff-blog-card__block:nth-child(4) {
+    margin-left: 0;
+    margin-left: initial;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .p-staff-blog-card__block:nth-child(n+4) {
+    margin-top: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .p-staff-blog-card__block {
+    width: 18.5rem;
+  }
 }
 
 .p-staff-blog__button-block {

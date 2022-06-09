@@ -3,3 +3,9 @@
 .p-card-blog__body {
   background-color: #D2D2D2;
 }
+
+.p-card-blog__block:nth-child(n + 2) {
+  @include mq(md) {
+    margin-left: rem(56);
+  }
+}

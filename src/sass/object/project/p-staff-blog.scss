@@ -15,10 +15,56 @@
 .p-staff-blog__textblock {
   padding-top: rem(10);
   margin-top: rem(30);
+  @include mq(md) {
+    padding-top: initial;
+    margin-top: rem(32);
+  }
 }
 
 .p-staff-blog__text {
   text-align: center;
+}
+
+.p-staff-blog__text-sp {
+  @include mq(md) {
+    display: none;
+  }
+}
+
+.p-staff-blog__card {
+  margin: rem(20) auto 0 auto;
+  @include mq(md) {
+    max-width: rem(1000);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: rem(32) auto 0 auto;
+  }
+}
+
+.p-staff-blog-card__block:nth-child(n + 2) {
+  @include mq(md) {
+    margin-left: rem(56);
+  }
+}
+
+.p-staff-blog-card__block:nth-child(4) {
+  @include mq(md) {
+    margin-left: initial;
+  }
+}
+
+.p-staff-blog-card__block:nth-child(n + 4) {
+  @include mq(md) {
+    margin-top: rem(40);
+  }
+}
+
+.p-staff-blog-card__block {
+  @include mq(md) {
+    width: rem(296);
+  }
 }
 
 .p-staff-blog__button-block {

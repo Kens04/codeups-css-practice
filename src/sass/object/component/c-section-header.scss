@@ -9,6 +9,9 @@
   font-weight: $bold;
   font-size: rem(32);
   text-transform: uppercase;
+  @include mq(md) {
+    font-size: rem(48);
+  }
 }
 
 .c-section-header__subtitle {
@@ -16,4 +19,7 @@
   font-size: rem(16);
   border-bottom: 2px solid #005700;
   display: inline-block;
+  @include mq(md) {
+    font-size: rem(24);
+  }
 }

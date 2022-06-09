@@ -19,8 +19,10 @@ body {
 
 .p-blog {
   position: relative;
-  padding-bottom: 160px;
-  padding-bottom: 10rem;
+  padding-top: 60px;
+  padding-top: 3.75rem;
+  padding-bottom: 140px;
+  padding-bottom: 8.75rem;
 }
 
 .p-blog::before {
@@ -36,6 +38,11 @@ body {
   height: 100%;
   z-index: -1;
 }
+@media screen and (min-width: 768px) {
+  .p-blog::before {
+    max-width: 50%;
+  }
+}
 
 .p-blog__header {
   text-align: center;
@@ -46,11 +53,46 @@ body {
   margin-top: 1.25rem;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .p-blog-block {
+    margin-top: 3rem;
+  }
+}
+
+.p-blog__text-pc {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .p-blog__text-pc {
+    display: block;
+  }
+}
+
+.p-blog__card {
+  margin: 20px auto 0 auto;
+  margin: 1.25rem auto 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .p-blog__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 3rem auto 0 auto;
+  }
+}
 
 .p-blog__button-block {
   text-align: center;
   margin-top: 20px;
   margin-top: 1.25rem;
+}
+@media screen and (min-width: 768px) {
+  .p-blog__button-block {
+    margin-top: 3.5625rem;
+  }
 }
 
 .p-blog__button {
