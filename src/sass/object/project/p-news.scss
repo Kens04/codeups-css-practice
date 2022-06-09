@@ -19,8 +19,19 @@
   text-align: center;
 }
 
+.p-card-news__text-pc {
+  display: none;
+  @include mq(md) {
+    display: block;
+  }
+}
+
 .p-news-card {
   margin-top: rem(30);
+  @include mq(md) {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .p-card-news__body {
