@@ -5,12 +5,37 @@
 }
 
 .p-staff-blog-block {
+  position: relative;
+}
+
+.p-staff-blog-block::before {
+  position: absolute;
+  content: "";
   background-color: #AF9E9799;
   width: 100vw;
+  height: 100%;
   margin-left: calc(50% - 50vw);
   padding-left: rem(15);
   padding-right: rem(15);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  @include mq(md) {
+    height: rem(499);
+    top: 237px;
+  }
 }
+
+// .p-staff-blog-block {
+//   background-color: #AF9E9799;
+//   width: 100vw;
+//   margin-left: calc(50% - 50vw);
+//   padding-left: rem(15);
+//   padding-right: rem(15);
+//   @include mq(md) {
+//     background-color: initial;
+//   }
+// }
 
 .p-staff-blog__textblock {
   padding-top: rem(10);
