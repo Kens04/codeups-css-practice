@@ -292,14 +292,6 @@ select::-ms-expand {
 
 .c-card__body {
   position: relative;
-  padding-top: 20px;
-  padding-top: 1.25rem;
-  padding-right: 20px;
-  padding-right: 1.25rem;
-  padding-bottom: 25px;
-  padding-bottom: 1.5625rem;
-  padding-left: 10px;
-  padding-left: 0.625rem;
   background-color: #F7F7F7;
   border-radius: 0px 0px 10px 10px;
 }
@@ -376,6 +368,11 @@ select::-ms-expand {
   margin-top: 50px;
   margin-top: 3.125rem;
 }
+@media screen and (min-width: 768px) {
+  .l-news {
+    margin-top: 2.5rem;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .l-staff-blog {
@@ -386,6 +383,11 @@ select::-ms-expand {
 .l-works {
   margin-top: 50px;
   margin-top: 3.125rem;
+}
+@media screen and (min-width: 768px) {
+  .l-works {
+    margin-top: 5rem;
+  }
 }
 
 .p-blog {
@@ -492,6 +494,12 @@ select::-ms-expand {
   padding-bottom: 56px;
   padding-bottom: 3.5rem;
 }
+@media screen and (min-width: 768px) {
+  .p-news {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
 
 .p-news__header {
   text-align: center;
@@ -528,10 +536,19 @@ select::-ms-expand {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-top: 2.5rem;
   }
 }
 
 .p-card-news__body {
+  padding-top: 20px;
+  padding-top: 1.25rem;
+  padding-right: 20px;
+  padding-right: 1.25rem;
+  padding-bottom: 25px;
+  padding-bottom: 1.5625rem;
+  padding-left: 10px;
+  padding-left: 0.625rem;
   border-left: 50px solid #AF9E97;
 }
 
@@ -539,6 +556,11 @@ select::-ms-expand {
   text-align: center;
   margin-top: 30px;
   margin-top: 1.875rem;
+}
+@media screen and (min-width: 768px) {
+  .p-news__button-block {
+    margin-top: 2.5rem;
+  }
 }
 
 .p-news__button {
@@ -663,6 +685,11 @@ select::-ms-expand {
 .p-works {
   position: relative;
 }
+@media screen and (min-width: 768px) {
+  .p-works {
+    padding-top: 8.75rem;
+  }
+}
 
 .p-works::before {
   position: absolute;
@@ -674,6 +701,11 @@ select::-ms-expand {
   top: 0;
   right: 0;
   z-index: -1;
+}
+@media screen and (min-width: 768px) {
+  .p-works::before {
+    width: 50%;
+  }
 }
 
 .p-works-section__header {
@@ -689,13 +721,50 @@ select::-ms-expand {
   margin-top: 10px;
   margin-top: 0.625rem;
 }
+@media screen and (min-width: 768px) {
+  .p-works__textblock {
+    margin-top: 0;
+    margin-top: initial;
+  }
+}
 
 .p-works__text {
   text-align: center;
 }
 
+.p-works__text-pc {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .p-works__text-pc {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .p-works__text-sp {
+    display: none;
+  }
+}
+
 .p-card-works__body {
+  padding-top: 20px;
+  padding-top: 1.25rem;
+  padding-right: 20px;
+  padding-right: 1.25rem;
+  padding-bottom: 25px;
+  padding-bottom: 1.5625rem;
+  padding-left: 10px;
+  padding-left: 0.625rem;
   border-left: 50px solid #6E6B5C;
+}
+@media screen and (min-width: 768px) {
+  .p-card-works__body {
+    padding-top: 1.25rem;
+    padding-right: 1.875rem;
+    padding-bottom: 1.5625rem;
+    padding-left: 1.875rem;
+  }
 }
 
 .p-card-works__title {
@@ -706,6 +775,15 @@ select::-ms-expand {
   margin-top: 20px;
   margin-top: 1.25rem;
 }
+@media screen and (min-width: 768px) {
+  .p-works__Swiper {
+    width: 100vw;
+    margin-top: 5rem;
+    margin-left: calc(50% - 50vw);
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+  }
+}
 
 .p-works__button-block {
   padding-top: 40px;
@@ -714,6 +792,12 @@ select::-ms-expand {
   padding-bottom: 6.25rem;
   text-align: center;
   text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+  .p-works__button-block {
+    padding-top: 5.3125rem;
+    padding-bottom: 8.75rem;
+  }
 }
 
 .p-works__button {

@@ -4,6 +4,10 @@
   background-color: #F1F0F0;
   padding-top: rem(14);
   padding-bottom: rem(56);
+  @include mq(md) {
+    padding-top: rem(80);
+    padding-bottom: rem(80);
+  }
 }
 
 .p-news__header {
@@ -31,16 +35,24 @@
   @include mq(md) {
     display: flex;
     justify-content: center;
+    margin-top: rem(40);
   }
 }
 
 .p-card-news__body {
+  padding-top: rem(20);
+  padding-right: rem(20);
+  padding-bottom: rem(25);
+  padding-left: rem(10);
   border-left: 50px solid #AF9E97;
 }
 
 .p-news__button-block {
   text-align: center;
   margin-top: rem(30);
+  @include mq(md) {
+    margin-top: rem(40);
+  }
 }
 
 .p-news__button {

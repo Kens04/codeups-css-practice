@@ -20,6 +20,11 @@ body {
 .p-works {
   position: relative;
 }
+@media screen and (min-width: 768px) {
+  .p-works {
+    padding-top: 8.75rem;
+  }
+}
 
 .p-works::before {
   position: absolute;
@@ -31,6 +36,11 @@ body {
   top: 0;
   right: 0;
   z-index: -1;
+}
+@media screen and (min-width: 768px) {
+  .p-works::before {
+    width: 50%;
+  }
 }
 
 .p-works-section__header {
@@ -46,13 +56,50 @@ body {
   margin-top: 10px;
   margin-top: 0.625rem;
 }
+@media screen and (min-width: 768px) {
+  .p-works__textblock {
+    margin-top: 0;
+    margin-top: initial;
+  }
+}
 
 .p-works__text {
   text-align: center;
 }
 
+.p-works__text-pc {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .p-works__text-pc {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .p-works__text-sp {
+    display: none;
+  }
+}
+
 .p-card-works__body {
+  padding-top: 20px;
+  padding-top: 1.25rem;
+  padding-right: 20px;
+  padding-right: 1.25rem;
+  padding-bottom: 25px;
+  padding-bottom: 1.5625rem;
+  padding-left: 10px;
+  padding-left: 0.625rem;
   border-left: 50px solid #6E6B5C;
+}
+@media screen and (min-width: 768px) {
+  .p-card-works__body {
+    padding-top: 1.25rem;
+    padding-right: 1.875rem;
+    padding-bottom: 1.5625rem;
+    padding-left: 1.875rem;
+  }
 }
 
 .p-card-works__title {
@@ -63,6 +110,15 @@ body {
   margin-top: 20px;
   margin-top: 1.25rem;
 }
+@media screen and (min-width: 768px) {
+  .p-works__Swiper {
+    width: 100vw;
+    margin-top: 5rem;
+    margin-left: calc(50% - 50vw);
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+  }
+}
 
 .p-works__button-block {
   padding-top: 40px;
@@ -71,6 +127,12 @@ body {
   padding-bottom: 6.25rem;
   text-align: center;
   text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+  .p-works__button-block {
+    padding-top: 5.3125rem;
+    padding-bottom: 8.75rem;
+  }
 }
 
 .p-works__button {

@@ -2,6 +2,9 @@
 
 .p-works {
   position: relative;
+  @include mq(md) {
+    padding-top: rem(140);
+  }
 }
 
 .p-works::before {
@@ -13,6 +16,9 @@
   top: 0;
   right: 0;
   z-index: -1;
+  @include mq(md) {
+    width: 50%;
+  }
 }
 
 .p-works-section__header {
@@ -26,14 +32,40 @@
 
 .p-works__textblock {
   margin-top: rem(10);
+  @include mq(md) {
+    margin-top: initial;
+  }
 }
 
 .p-works__text {
   text-align: center;
 }
 
+.p-works__text-pc {
+  display: none;
+  @include mq(md) {
+    display: block;
+  }
+}
+
+.p-works__text-sp {
+  @include mq(md) {
+    display: none;
+  }
+}
+
 .p-card-works__body {
+  padding-top: rem(20);
+  padding-right: rem(20);
+  padding-bottom: rem(25);
+  padding-left: rem(10);
   border-left: 50px solid #6E6B5C;
+  @include mq(md) {
+    padding-top: rem(20);
+    padding-right: rem(30);
+    padding-bottom: rem(25);
+    padding-left: rem(30);
+  }
 }
 
 .p-card-works__title {
@@ -42,6 +74,13 @@
 
 .p-works__Swiper {
   margin-top: rem(20);
+  @include mq(md) {
+    width: 100vw;
+    margin-top: rem(80);
+    margin-left: calc(50% - 50vw);
+    padding-left: rem(15);
+    padding-right: rem(15);
+  }
 }
 
 .p-works__button-block {
@@ -49,6 +88,10 @@
   padding-bottom: rem(100);
   text-align: center;
   text-transform: uppercase;
+  @include mq(md) {
+    padding-top: rem(85);
+    padding-bottom: rem(140);
+  }
 }
 
 .p-works__button {

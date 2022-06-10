@@ -63,14 +63,6 @@ body {
 
 .c-card__body {
   position: relative;
-  padding-top: 20px;
-  padding-top: 1.25rem;
-  padding-right: 20px;
-  padding-right: 1.25rem;
-  padding-bottom: 25px;
-  padding-bottom: 1.5625rem;
-  padding-left: 10px;
-  padding-left: 0.625rem;
   background-color: #F7F7F7;
   border-radius: 0px 0px 10px 10px;
 }
