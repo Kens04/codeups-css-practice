@@ -22,11 +22,11 @@
 }
 
 .p-card-blog__body:hover .c-card-blog__title {
-  color: #fff;
+  color: $white;
 }
 
 .p-card-blog__body:hover .c-card-blog__text {
-  color: #fff;
+  color: $white;
 }
 
 .p-card-blog__body:hover::after {
