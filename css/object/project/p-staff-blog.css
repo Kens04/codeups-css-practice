@@ -129,5 +129,14 @@ body {
   background-color: #F7F7F7;
   color: #4D4D4D;
   border: 2px solid #4D4D4D;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.p-staff-blog__button:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  background-color: #4D4D4D;
+  color: #F7F7F7;
 }
 /*# sourceMappingURL=p-staff-blog.css.map */

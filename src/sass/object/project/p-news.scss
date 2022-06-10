@@ -47,6 +47,19 @@
   border-left: 50px solid #AF9E97;
 }
 
+.p-card-news__body:hover {
+  background-color: #AF9E97;
+  border-left: 50px solid $white;
+}
+
+.p-card-news__body:hover .c-card__title {
+  color: $white;
+}
+
+.p-card-news__body:hover .c-card__text {
+  color: $white;
+}
+
 .p-news__button-block {
   text-align: center;
   margin-top: rem(30);
@@ -58,4 +71,11 @@
 .p-news__button {
   background-color: $btn_color;
   color: $white;
+}
+
+.p-news__button:hover {
+  background-color: $white;
+  color: #4D4D4D;
+  border: 1px solid  #4D4D4D;
+  margin: -1px;
 }
