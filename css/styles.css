@@ -324,11 +324,6 @@ select::-ms-expand {
   margin-top: 0.625rem;
 }
 
-.swiper-slide {
-  margin-left: 15px;
-  margin-left: 0.9375rem;
-}
-
 .c-section-header {
   font-family: "Noto Sans JP", sans-serif;
   color: #000;
