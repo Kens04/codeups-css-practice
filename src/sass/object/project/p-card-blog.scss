@@ -1,35 +1,29 @@
 @use "global" as *;
 
-.p-card-blog__body {
+.p-card-blog__block {
   background-color: #D2D2D2;
+  border-radius: 10px;
+  box-shadow: (5px 5px 5px rgba(0, 0, 0, 0.25));
+}
+
+.p-card-blog__body {
   overflow: hidden;
   position: relative;
-  z-index: 1;
 }
 
-.p-card-blog__body::after {
-  background: #3D593D;
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: '';
-  width: 100%;
-  height: 100%;
-  transform: scale(0, 1);
-  transform-origin: left top;
-  transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
-  z-index: -1;
+.p-card-blog__block:hover {
+  background-color: #3D593D;
 }
 
-.p-card-blog__body:hover .c-card-blog__title {
+.p-card-blog__block:hover .c-card-blog__title {
   color: $white;
 }
 
-.p-card-blog__body:hover .c-card-blog__text {
+.p-card-blog__block:hover .c-card-blog__text {
   color: $white;
 }
 
-.p-card-blog__body:hover::after {
+.p-card-blog__block:hover::after {
   transform: scale(1, 1);
 }
 

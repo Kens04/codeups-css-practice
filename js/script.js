@@ -51,7 +51,15 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
     slidesPerView: 1,
     spaceBetween: 0,
     breakpoints: {
+      600: {
+        slidesPerView: 2,
+        centeredSlides: true
+      },
       768: {
+        slidesPerView: 3,
+        centeredSlides: true
+      },
+      1300: {
         slidesPerView: 4,
         centeredSlides: true
       },

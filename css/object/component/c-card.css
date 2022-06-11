@@ -18,8 +18,9 @@ body {
 }
 
 .c-card {
-  width: 320px;
-  width: 20rem;
+  max-width: 320px;
+  max-width: 20rem;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -37,6 +38,7 @@ body {
 
 .c-card__img {
   position: relative;
+  z-index: 2;
 }
 
 .c-card__img::before {
@@ -83,5 +85,10 @@ body {
   color: #000;
   margin-top: 10px;
   margin-top: 0.625rem;
+}
+
+.swiper-slide {
+  margin-left: 15px;
+  margin-left: 0.9375rem;
 }
 /*# sourceMappingURL=c-card.css.map */

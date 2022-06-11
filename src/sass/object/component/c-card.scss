@@ -1,7 +1,8 @@
 @use "global" as *;
 
 .c-card {
-  width: rem(320);
+  max-width: rem(320);
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -14,11 +15,8 @@
 }
 
 .c-card__img {
-
-}
-
-.c-card__img {
   position: relative;
+  z-index: 2;
 }
 .c-card__img::before {
   content: "";
@@ -58,4 +56,8 @@
   font-size: rem(16);
   color: $black;
   margin-top: rem(10);
+}
+
+.swiper-slide {
+  margin-left: rem(15);
 }
