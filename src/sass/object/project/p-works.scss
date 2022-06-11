@@ -54,6 +54,15 @@
   }
 }
 
+.p-works-card {
+
+}
+
+.p-works-card__border {
+  background-color: #6E6B5C;
+  z-index: 3;
+}
+
 .p-card-works__body {
   overflow: hidden;
   position: relative;
@@ -63,7 +72,7 @@
   padding-right: rem(20);
   padding-bottom: rem(25);
   padding-left: rem(10);
-  border-left: 50px solid #6E6B5C;
+  // border-left: 50px solid #6E6B5C;
   @include mq(md) {
     padding-top: rem(20);
     padding-right: rem(30);

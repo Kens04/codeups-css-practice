@@ -82,6 +82,11 @@ body {
   }
 }
 
+.p-works-card__border {
+  background-color: #6E6B5C;
+  z-index: 3;
+}
+
 .p-card-works__body {
   overflow: hidden;
   position: relative;
@@ -96,7 +101,6 @@ body {
   padding-bottom: 1.5625rem;
   padding-left: 10px;
   padding-left: 0.625rem;
-  border-left: 50px solid #6E6B5C;
 }
 @media screen and (min-width: 768px) {
   .p-card-works__body {

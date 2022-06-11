@@ -4,6 +4,8 @@
   max-width: rem(320);
   width: 100%;
   margin: 0 auto;
+  position: relative;
+  border-radius: 10px;
 }
 
 .c-card:nth-child(n + 2) {
@@ -14,9 +16,19 @@
   }
 }
 
+.c-card__border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: rem(50);
+  height: 100%;
+  z-index: 1;
+  border-radius: 10px 0 0 10px;
+}
+
 .c-card__img {
   position: relative;
-  z-index: 2;
+  z-index: 3;
 }
 .c-card__img::before {
   content: "";

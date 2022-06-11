@@ -246,6 +246,8 @@ select::-ms-expand {
   max-width: 20rem;
   width: 100%;
   margin: 0 auto;
+  position: relative;
+  border-radius: 10px;
 }
 
 .c-card:nth-child(n+2) {
@@ -260,9 +262,20 @@ select::-ms-expand {
   }
 }
 
+.c-card__border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  width: 3.125rem;
+  height: 100%;
+  z-index: 1;
+  border-radius: 10px 0 0 10px;
+}
+
 .c-card__img {
   position: relative;
-  z-index: 2;
+  z-index: 3;
 }
 
 .c-card__img::before {
@@ -616,12 +629,12 @@ select::-ms-expand {
   }
 }
 
-.p-news-card {
+.p-news-card-box {
   margin-top: 30px;
   margin-top: 1.875rem;
 }
 @media screen and (min-width: 768px) {
-  .p-news-card {
+  .p-news-card-box {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -632,10 +645,8 @@ select::-ms-expand {
   }
 }
 
-.p-card {
-  position: relative;
+.p-news-card {
   background-color: #F7F7F7;
-  border-radius: 10px;
 }
 
 .p-card-news__body {
@@ -649,35 +660,27 @@ select::-ms-expand {
   padding-left: 3.75rem;
 }
 
-.p-card-news__border {
-  position: absolute;
-  top: 0;
-  left: 0;
+.p-news-card__border {
   background-color: #AF9E97;
-  width: 50px;
-  width: 3.125rem;
-  height: 100%;
-  z-index: 1;
-  border-radius: 10px 0 0 10px;
 }
 
-.p-card:hover .p-card-news__border {
+.p-news-card:hover .p-news-card__border {
   background-color: #F7F7F7;
 }
 
-.p-card:hover {
+.p-news-card:hover {
   background-color: #AF9E97;
 }
 
-.p-card:hover .p-card-news__body {
+.p-news-card:hover .p-card-news__body {
   background-color: #AF9E97;
 }
 
-.p-card:hover .c-card__title {
+.p-news-card:hover .c-card__title {
   color: #F7F7F7;
 }
 
-.p-card:hover .c-card__text {
+.p-news-card:hover .c-card__text {
   color: #F7F7F7;
 }
 
@@ -890,6 +893,11 @@ select::-ms-expand {
   }
 }
 
+.p-works-card__border {
+  background-color: #6E6B5C;
+  z-index: 3;
+}
+
 .p-card-works__body {
   overflow: hidden;
   position: relative;
@@ -904,7 +912,6 @@ select::-ms-expand {
   padding-bottom: 1.5625rem;
   padding-left: 10px;
   padding-left: 0.625rem;
-  border-left: 50px solid #6E6B5C;
 }
 @media screen and (min-width: 768px) {
   .p-card-works__body {
