@@ -109,12 +109,12 @@
 
 .p-works__button-block {
   padding-top: rem(40);
-  padding-bottom: rem(100);
+  // padding-bottom: rem(100);
   text-align: center;
   text-transform: uppercase;
   @include mq(md) {
     padding-top: rem(85);
-    padding-bottom: rem(140);
+    // padding-bottom: rem(140);
   }
 }
 

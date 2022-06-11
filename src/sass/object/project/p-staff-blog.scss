@@ -99,6 +99,9 @@
   padding-bottom: rem(40);
   text-align: center;
   text-transform: uppercase;
+  @include mq(md) {
+    padding-bottom: initial;
+  }
 }
 
 .p-staff-blog__button {

@@ -23,7 +23,7 @@
   text-align: center;
 }
 
-.p-card-news__text-pc {
+.p-news__text-pc {
   display: none;
   @include mq(md) {
     display: block;

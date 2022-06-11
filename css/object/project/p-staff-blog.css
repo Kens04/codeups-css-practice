@@ -124,6 +124,12 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+@media screen and (min-width: 768px) {
+  .p-staff-blog__button-block {
+    padding-bottom: 0;
+    padding-bottom: initial;
+  }
+}
 
 .p-staff-blog__button {
   background-color: #F7F7F7;
