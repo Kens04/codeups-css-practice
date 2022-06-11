@@ -82,6 +82,10 @@ body {
   }
 }
 
+.p-works-card {
+  position: relative;
+}
+
 .p-works-card__border {
   background-color: #6E6B5C;
   z-index: 3;
@@ -89,7 +93,6 @@ body {
 
 .p-card-works__body {
   overflow: hidden;
-  position: relative;
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
   z-index: 2;
@@ -125,11 +128,11 @@ body {
   transition: 0.3s;
 }
 
-.p-card-works__body:hover .p-card-works__title {
+.p-works-card:hover .p-card-works__title {
   color: #F7F7F7;
 }
 
-.p-card-works__body:hover::after {
+.p-works-card:hover .p-card-works__body::after {
   top: 0;
 }
 

@@ -55,7 +55,7 @@
 }
 
 .p-works-card {
-
+  position: relative;
 }
 
 .p-works-card__border {
@@ -65,7 +65,7 @@
 
 .p-card-works__body {
   overflow: hidden;
-  position: relative;
+  
   transition-duration: .4s;
   z-index: 2;
   padding-top: rem(20);
@@ -94,10 +94,10 @@
 	-webkit-transition: .3s;
 	transition: .3s;
 }
-.p-card-works__body:hover .p-card-works__title {
+.p-works-card:hover .p-card-works__title {
 	color: $white;
 }
-.p-card-works__body:hover::after {
+.p-works-card:hover .p-card-works__body::after {
   top: 0;
 }
 
