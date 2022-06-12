@@ -30,7 +30,8 @@
   margin-top: rem(20);
   text-align: center;
   @include mq(md) {
-    margin-top: rem(48);
+    margin-top: rem(46);
+    line-height: 1.4;
   }
 }
 
@@ -46,7 +47,7 @@
   @include mq(md) {
     display: flex;
     justify-content: center;
-    margin: rem(48) auto 0 auto;
+    margin: rem(47) auto 0 auto;
   }
 }
 

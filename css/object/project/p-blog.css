@@ -55,7 +55,8 @@ body {
 }
 @media screen and (min-width: 768px) {
   .p-blog-block {
-    margin-top: 3rem;
+    margin-top: 2.875rem;
+    line-height: 1.4;
   }
 }
 
@@ -80,7 +81,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin: 3rem auto 0 auto;
+    margin: 2.9375rem auto 0 auto;
   }
 }
 

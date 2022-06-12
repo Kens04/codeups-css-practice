@@ -45,8 +45,8 @@ body {
 }
 
 .c-card-blog__body {
-  padding: 20px;
-  padding: 1.25rem;
+  padding: 20px 20px 22px 20px;
+  padding: 1.25rem 1.25rem 1.375rem 1.25rem;
 }
 
 .c-card-blog__title {
@@ -63,7 +63,7 @@ body {
   font-size: 16px;
   font-size: 1rem;
   color: #000;
-  margin-top: 10px;
-  margin-top: 0.625rem;
+  margin-top: 7px;
+  margin-top: 0.4375rem;
 }
 /*# sourceMappingURL=c-card-blog.css.map */
