@@ -44,11 +44,6 @@ body {
   border-radius: 10px 10px 0 0;
 }
 
-.c-card-blog__body {
-  padding: 20px 20px 22px 20px;
-  padding: 1.25rem 1.25rem 1.375rem 1.25rem;
-}
-
 .c-card-blog__title {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 400;
@@ -63,7 +58,7 @@ body {
   font-size: 16px;
   font-size: 1rem;
   color: #000;
-  margin-top: 7px;
-  margin-top: 0.4375rem;
+  margin-top: 7.3px;
+  margin-top: 0.45625rem;
 }
 /*# sourceMappingURL=c-card-blog.css.map */

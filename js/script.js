@@ -60,7 +60,7 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
         centeredSlides: true
       },
       1300: {
-        slidesPerView: 4,
+        slidesPerView: 3.92,
         centeredSlides: true
       },
     }

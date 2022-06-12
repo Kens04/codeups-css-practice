@@ -48,6 +48,11 @@ body {
   text-align: center;
 }
 
+.p-blog__subtitle {
+  margin-top: -3px;
+  margin-top: -0.1875rem;
+}
+
 .p-blog-block {
   margin-top: 20px;
   margin-top: 1.25rem;
@@ -99,6 +104,13 @@ body {
 .p-blog__button {
   background-color: #4D4D4D;
   color: #F7F7F7;
+  padding: 15.5px 81.3px;
+  padding: 0.96875rem 5.08125rem;
+}
+@media screen and (min-width: 768px) {
+  .p-blog__button {
+    padding: 1.125rem 6.3125rem;
+  }
 }
 
 .p-blog__button:hover {

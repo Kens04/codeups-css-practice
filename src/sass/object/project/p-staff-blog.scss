@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+.p-staff-blog__subtitle {
+  margin-top: rem(-3);
+}
+
 .p-staff-blog-block {
   position: relative;
 }
@@ -22,7 +26,7 @@
   z-index: -1;
   @include mq(md) {
     height: rem(499);
-    top: 237px;
+    top: 234px;
   }
 }
 
@@ -46,7 +50,8 @@
   margin-top: rem(30);
   @include mq(md) {
     padding-top: initial;
-    margin-top: rem(32);
+    margin-top: rem(28);
+    // line-height: 1.5;
   }
 }
 
@@ -68,7 +73,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: rem(32) auto 0 auto;
+    margin: rem(29) auto 0 auto;
   }
 }
 
@@ -105,7 +110,7 @@
 .p-staff-blog__button-block {
   // position: relative;
   // top: 0;
-  padding-top: rem(40);
+  padding-top: rem(37);
   padding-bottom: rem(40);
   text-align: center;
   text-transform: uppercase;
@@ -118,7 +123,12 @@
   background-color: $white;
   color: $btn_color;
   border: 2px solid #4D4D4D;
+  margin: rem(2) 0 rem(-1) 0;
   transition: .3s;
+  padding: rem(15.5) rem(81.3);
+  @include mq(md) {
+    padding: rem(16) rem(99) rem(14) rem(99);
+  }
 }
 
 .p-staff-blog__button:hover {

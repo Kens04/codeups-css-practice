@@ -8,9 +8,7 @@
   font-family: $jp-font;
   text-transform: uppercase;
   border-radius: 20px;
-  padding: rem(15.5) rem(81.3);
   @include mq(md) {
-    padding: rem(18) rem(101);
     font-size: rem(32);
     // letter-spacing: 0.001em;
   }

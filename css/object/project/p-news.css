@@ -27,7 +27,7 @@ body {
 @media screen and (min-width: 768px) {
   .p-news {
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 4.9375rem;
   }
 }
 
@@ -36,9 +36,14 @@ body {
   display: inline-block;
 }
 
+.p-news__subtitle {
+  margin-top: -1px;
+  margin-top: -0.0625rem;
+}
+
 .p-news__textblock {
-  margin-top: 30px;
-  margin-top: 1.875rem;
+  margin-top: 36px;
+  margin-top: 2.25rem;
 }
 
 .p-news__text {
@@ -66,7 +71,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-top: 2.5rem;
+    margin-top: 2.375rem;
   }
 }
 
@@ -79,8 +84,8 @@ body {
   padding-top: 1.25rem;
   padding-right: 20px;
   padding-right: 1.25rem;
-  padding-bottom: 25px;
-  padding-bottom: 1.5625rem;
+  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
   padding-left: 60px;
   padding-left: 3.75rem;
 }
@@ -123,6 +128,13 @@ body {
 .p-news__button {
   background-color: #4D4D4D;
   color: #F7F7F7;
+  padding: 15.5px 81.3px;
+  padding: 0.96875rem 5.08125rem;
+}
+@media screen and (min-width: 768px) {
+  .p-news__button {
+    padding: 1.125rem 6.25rem 1.125rem 6.25rem;
+  }
 }
 
 .p-news__button:hover {

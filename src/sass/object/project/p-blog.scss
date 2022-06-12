@@ -26,6 +26,10 @@
   text-align: center;
 }
 
+.p-blog__subtitle {
+  margin-top: rem(-3);
+}
+
 .p-blog-block {
   margin-top: rem(20);
   text-align: center;
@@ -62,6 +66,10 @@
 .p-blog__button {
   background-color: $btn_color;
   color: $white;
+  padding: rem(15.5) rem(81.3);
+  @include mq(md) {
+    padding: rem(18) rem(101);
+  }
 }
 
 .p-blog__button:hover {

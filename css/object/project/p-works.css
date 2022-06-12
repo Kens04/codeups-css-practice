@@ -52,14 +52,18 @@ body {
   text-align: center;
 }
 
+.p-works__subtitle {
+  margin-top: -3px;
+  margin-top: -0.1875rem;
+}
+
 .p-works__textblock {
   margin-top: 10px;
   margin-top: 0.625rem;
 }
 @media screen and (min-width: 768px) {
   .p-works__textblock {
-    margin-top: 0;
-    margin-top: initial;
+    margin-top: -0.25rem;
   }
 }
 
@@ -109,8 +113,8 @@ body {
   .p-card-works__body {
     padding-top: 1.25rem;
     padding-right: 1.875rem;
-    padding-bottom: 1.5625rem;
-    padding-left: 1.875rem;
+    padding-bottom: 1.3125rem;
+    padding-left: 4.9375rem;
   }
 }
 
@@ -147,7 +151,7 @@ body {
 @media screen and (min-width: 768px) {
   .p-works__Swiper {
     width: 100vw;
-    margin-top: 5rem;
+    margin-top: 4.875rem;
     margin-left: calc(50% - 50vw);
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -170,8 +174,17 @@ body {
   background-color: #F7F7F7;
   color: #4D4D4D;
   border: 2px solid #4D4D4D;
+  margin: 2px 0 -1px 0;
+  margin: 0.125rem 0 -0.0625rem 0;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  padding: 15.5px 81.3px;
+  padding: 0.96875rem 5.08125rem;
+}
+@media screen and (min-width: 768px) {
+  .p-works__button {
+    padding: 1rem 6.1875rem 0.8125rem 6.1875rem;
+  }
 }
 
 .p-works__button:hover {

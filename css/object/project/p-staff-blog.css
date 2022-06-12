@@ -21,6 +21,11 @@ body {
   text-align: center;
 }
 
+.p-staff-blog__subtitle {
+  margin-top: -3px;
+  margin-top: -0.1875rem;
+}
+
 .p-staff-blog-block {
   position: relative;
 }
@@ -43,7 +48,7 @@ body {
 @media screen and (min-width: 768px) {
   .p-staff-blog-block::before {
     height: 31.1875rem;
-    top: 237px;
+    top: 234px;
   }
 }
 
@@ -62,7 +67,7 @@ body {
   .p-staff-blog__textblock {
     padding-top: 0;
     padding-top: initial;
-    margin-top: 2rem;
+    margin-top: 1.75rem;
   }
 }
 
@@ -92,7 +97,7 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin: 2rem auto 0 auto;
+    margin: 1.8125rem auto 0 auto;
   }
 }
 
@@ -109,8 +114,8 @@ body {
 }
 
 .p-staff-blog__button-block {
-  padding-top: 40px;
-  padding-top: 2.5rem;
+  padding-top: 37px;
+  padding-top: 2.3125rem;
   padding-bottom: 40px;
   padding-bottom: 2.5rem;
   text-align: center;
@@ -127,8 +132,17 @@ body {
   background-color: #F7F7F7;
   color: #4D4D4D;
   border: 2px solid #4D4D4D;
+  margin: 2px 0 -1px 0;
+  margin: 0.125rem 0 -0.0625rem 0;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  padding: 15.5px 81.3px;
+  padding: 0.96875rem 5.08125rem;
+}
+@media screen and (min-width: 768px) {
+  .p-staff-blog__button {
+    padding: 1rem 6.1875rem 0.875rem 6.1875rem;
+  }
 }
 
 .p-staff-blog__button:hover {

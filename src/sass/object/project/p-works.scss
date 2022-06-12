@@ -30,10 +30,14 @@
   text-align: center;
 }
 
+.p-works__subtitle {
+  margin-top: rem(-3);
+}
+
 .p-works__textblock {
   margin-top: rem(10);
   @include mq(md) {
-    margin-top: initial;
+    margin-top: rem(-4);
   }
 }
 
@@ -75,8 +79,8 @@
   @include mq(md) {
     padding-top: rem(20);
     padding-right: rem(30);
-    padding-bottom: rem(25);
-    padding-left: rem(30);
+    padding-bottom: rem(21);
+    padding-left: rem(79);
   }
 }
 
@@ -108,7 +112,7 @@
   margin-top: rem(20);
   @include mq(md) {
     width: 100vw;
-    margin-top: rem(80);
+    margin-top: rem(78);
     margin-left: calc(50% - 50vw);
     padding-left: rem(15);
     padding-right: rem(15);
@@ -130,7 +134,12 @@
   background-color: $white;
   color: $btn_color;
   border: 2px solid #4D4D4D;
+  margin: rem(2) 0 rem(-1) 0;
   transition: .3s;
+  padding: rem(15.5) rem(81.3);
+  @include mq(md) {
+    padding: rem(16) rem(99) rem(13) rem(99);
+  }
 }
 
 .p-works__button:hover {

@@ -27,6 +27,8 @@ body {
 .p-card-blog__body {
   overflow: hidden;
   position: relative;
+  padding: 20px 20px 22px 20px;
+  padding: 1.25rem 1.25rem 1.375rem 1.25rem;
 }
 
 .p-card-blog__block:hover {
