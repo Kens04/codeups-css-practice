@@ -48,8 +48,9 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
   });
 
   var swiper = new Swiper(".p-works__Swiper", {
-    slidesPerView: 1,
-    spaceBetween: 0,
+    slidesPerView: 1.05,
+    // centeredSlides: true
+    spaceBetween: 15,
     breakpoints: {
       600: {
         slidesPerView: 2,

@@ -6,10 +6,20 @@
   box-shadow: (5px 5px 5px rgba(0, 0, 0, 0.25));
 }
 
+.p-card-blog__block:nth-child(n + 2) {
+  margin-top: rem(20);
+  @include mq(md) {
+    margin-top: initial;
+  }
+}
+
 .p-card-blog__body {
   overflow: hidden;
   position: relative;
-  padding: rem(20) rem(20) rem(22) rem(20);
+  padding: rem(20) rem(20) rem(23) rem(20);
+  @include mq(md) {
+    padding: rem(20) rem(20) rem(22) rem(20);
+  }
 }
 
 .p-card-blog__block:hover {
@@ -31,5 +41,12 @@
 .p-card-blog__block:nth-child(n + 2) {
   @include mq(md) {
     margin-left: rem(56);
+  }
+}
+
+.p-card-blog__text {
+  margin-top: rem(7.3);
+  @include mq(md) {
+    margin-top: rem(7.3);
   }
 }

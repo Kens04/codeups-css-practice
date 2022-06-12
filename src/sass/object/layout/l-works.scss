@@ -2,6 +2,7 @@
 
 .l-works {
   margin-top: rem(50);
+  padding-top: rem(10.5);
   padding-bottom: rem(100);
   @include mq(md) {
     margin-top: rem(80);

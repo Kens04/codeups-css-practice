@@ -53,13 +53,20 @@ body {
 }
 
 .p-works__subtitle {
-  margin-top: -3px;
-  margin-top: -0.1875rem;
+  line-height: 1.4;
+}
+@media screen and (min-width: 768px) {
+  .p-works__subtitle {
+    margin-top: -0.1875rem;
+    line-height: normal;
+    line-height: initial;
+  }
 }
 
 .p-works__textblock {
-  margin-top: 10px;
-  margin-top: 0.625rem;
+  margin-top: 8px;
+  margin-top: 0.5rem;
+  line-height: 1.45;
 }
 @media screen and (min-width: 768px) {
   .p-works__textblock {
@@ -104,10 +111,10 @@ body {
   padding-top: 1.25rem;
   padding-right: 20px;
   padding-right: 1.25rem;
-  padding-bottom: 25px;
-  padding-bottom: 1.5625rem;
-  padding-left: 10px;
-  padding-left: 0.625rem;
+  padding-bottom: 23px;
+  padding-bottom: 1.4375rem;
+  padding-left: 70px;
+  padding-left: 4.375rem;
 }
 @media screen and (min-width: 768px) {
   .p-card-works__body {
@@ -145,8 +152,14 @@ body {
 }
 
 .p-works__Swiper {
-  margin-top: 20px;
-  margin-top: 1.25rem;
+  margin-top: 18px;
+  margin-top: 1.125rem;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  padding-left: 27px;
+  padding-left: 1.6875rem;
+  padding-right: 11px;
+  padding-right: 0.6875rem;
 }
 @media screen and (min-width: 768px) {
   .p-works__Swiper {
@@ -159,8 +172,8 @@ body {
 }
 
 .p-works__button-block {
-  padding-top: 40px;
-  padding-top: 2.5rem;
+  padding-top: 57px;
+  padding-top: 3.5625rem;
   text-align: center;
   text-transform: uppercase;
 }
@@ -178,8 +191,8 @@ body {
   margin: 0.125rem 0 -0.0625rem 0;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  padding: 15.5px 81.3px;
-  padding: 0.96875rem 5.08125rem;
+  padding: 14px 78.5px;
+  padding: 0.875rem 4.90625rem;
 }
 @media screen and (min-width: 768px) {
   .p-works__button {

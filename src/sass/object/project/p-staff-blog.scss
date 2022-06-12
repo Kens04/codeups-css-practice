@@ -5,7 +5,9 @@
 }
 
 .p-staff-blog__subtitle {
-  margin-top: rem(-3);
+  @include mq(md) {
+    margin-top: rem(-3);
+  }
 }
 
 .p-staff-blog-block {
@@ -47,7 +49,8 @@
 
 .p-staff-blog__textblock {
   padding-top: rem(10);
-  margin-top: rem(30);
+  margin-top: rem(27);
+  line-height: 1.48;
   @include mq(md) {
     padding-top: initial;
     margin-top: rem(28);
@@ -66,7 +69,7 @@
 }
 
 .p-staff-blog__card {
-  margin: rem(20) auto 0 auto;
+  margin: rem(34) auto 0 auto;
   @include mq(md) {
     max-width: rem(1000);
     width: 100%;
@@ -95,6 +98,13 @@
 // //   }
 // // }
 
+.p-staff-blog-card__block:nth-child(n + 2) {
+  margin-top: rem(40);
+  @include mq(md) {
+    margin-top: initial;
+  }
+}
+
 .p-staff-blog-card__block:nth-child(n + 4) {
   @include mq(md) {
     margin-top: rem(40);
@@ -110,7 +120,7 @@
 .p-staff-blog__button-block {
   // position: relative;
   // top: 0;
-  padding-top: rem(37);
+  padding-top: rem(39);
   padding-bottom: rem(40);
   text-align: center;
   text-transform: uppercase;
@@ -123,11 +133,11 @@
   background-color: $white;
   color: $btn_color;
   border: 2px solid #4D4D4D;
-  margin: rem(2) 0 rem(-1) 0;
   transition: .3s;
-  padding: rem(15.5) rem(81.3);
+  padding: rem(14.5) rem(78.5);
   @include mq(md) {
     padding: rem(16) rem(99) rem(14) rem(99);
+    margin: rem(2) 0 rem(-1) 0;
   }
 }
 

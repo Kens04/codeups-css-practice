@@ -25,10 +25,15 @@ body {
           transition-duration: 0.4s;
   z-index: 2;
   border-radius: 0 0 10px 10px;
-  padding: 19px 20px 16px 20px;
-  padding: 1.1875rem 1.25rem 1rem 1.25rem;
+  padding: 19px 20px 17px 20px;
+  padding: 1.1875rem 1.25rem 1.0625rem 1.25rem;
   -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, .25);
           box-shadow: 5px 5px 5px rgba(0, 0, 0, .25);
+}
+@media screen and (min-width: 768px) {
+  .p-card-staff-blog__body {
+    padding: 1.1875rem 1.25rem 1rem 1.25rem;
+  }
 }
 
 .p-card-staff-blog__body::after {
@@ -75,5 +80,15 @@ body {
   transition: opacity 0.8s, -webkit-transform 0.6s ease-in-out;
   transition: opacity 0.8s, transform 0.6s ease-in-out;
   transition: opacity 0.8s, transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+}
+
+.p-card-staff-blog__text {
+  margin-top: 7.3px;
+  margin-top: 0.45625rem;
+}
+@media screen and (min-width: 768px) {
+  .p-card-staff-blog__text {
+    margin-top: 0.45625rem;
+  }
 }
 /*# sourceMappingURL=p-card-staff-blog.css.map */

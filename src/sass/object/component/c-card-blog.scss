@@ -8,12 +8,12 @@
   }
 }
 
-.c-card-blog__block:nth-child(n + 2) {
-  margin-top: rem(20);
-  @include mq(md) {
-    margin-top: initial;
-  }
-}
+// .c-card-blog__block:nth-child(n + 2) {
+//   margin-top: rem(20);
+//   @include mq(md) {
+//     margin-top: initial;
+//   }
+// }
 
 .c-card-blog__img img {
   border-radius: 10px 10px 0 0;
@@ -35,5 +35,4 @@
   font-weight: $normal;
   font-size: rem(16);
   color: $black;
-  margin-top: rem(7.3);
 }

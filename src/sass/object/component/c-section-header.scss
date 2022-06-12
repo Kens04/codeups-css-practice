@@ -6,10 +6,12 @@
 }
 
 .c-section-header__title {
+  line-height: 1.4;
   font-weight: $bold;
   font-size: rem(32);
   text-transform: uppercase;
   @include mq(md) {
+    line-height: initial;
     font-size: rem(48);
   }
 }

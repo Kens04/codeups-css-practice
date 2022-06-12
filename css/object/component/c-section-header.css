@@ -23,6 +23,7 @@ body {
 }
 
 .c-section-header__title {
+  line-height: 1.4;
   font-weight: 700;
   font-size: 32px;
   font-size: 2rem;
@@ -30,6 +31,8 @@ body {
 }
 @media screen and (min-width: 768px) {
   .c-section-header__title {
+    line-height: normal;
+    line-height: initial;
     font-size: 3rem;
   }
 }

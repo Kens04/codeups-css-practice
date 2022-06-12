@@ -37,13 +37,27 @@ body {
 }
 
 .p-news__subtitle {
-  margin-top: -1px;
-  margin-top: -0.0625rem;
+  line-height: 1.4;
+}
+@media screen and (min-width: 768px) {
+  .p-news__subtitle {
+    margin-top: -0.0625rem;
+    line-height: normal;
+    line-height: initial;
+  }
 }
 
 .p-news__textblock {
-  margin-top: 36px;
-  margin-top: 2.25rem;
+  margin-top: 27px;
+  margin-top: 1.6875rem;
+  line-height: 1.45;
+}
+@media screen and (min-width: 768px) {
+  .p-news__textblock {
+    margin-top: 2.25rem;
+    line-height: normal;
+    line-height: initial;
+  }
 }
 
 .p-news__text {
@@ -60,8 +74,8 @@ body {
 }
 
 .p-news-card-box {
-  margin-top: 30px;
-  margin-top: 1.875rem;
+  margin-top: 28px;
+  margin-top: 1.75rem;
 }
 @media screen and (min-width: 768px) {
   .p-news-card-box {
@@ -84,10 +98,18 @@ body {
   padding-top: 1.25rem;
   padding-right: 20px;
   padding-right: 1.25rem;
-  padding-bottom: 20px;
-  padding-bottom: 1.25rem;
+  padding-bottom: 20.5px;
+  padding-bottom: 1.28125rem;
   padding-left: 60px;
   padding-left: 3.75rem;
+}
+@media screen and (min-width: 768px) {
+  .p-card-news__body {
+    padding-top: 1.25rem;
+    padding-right: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-left: 3.75rem;
+  }
 }
 
 .p-news-card__border {
@@ -128,8 +150,8 @@ body {
 .p-news__button {
   background-color: #4D4D4D;
   color: #F7F7F7;
-  padding: 15.5px 81.3px;
-  padding: 0.96875rem 5.08125rem;
+  padding: 15.5px 81px;
+  padding: 0.96875rem 5.0625rem;
 }
 @media screen and (min-width: 768px) {
   .p-news__button {

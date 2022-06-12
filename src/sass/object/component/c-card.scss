@@ -9,7 +9,7 @@
 }
 
 .c-card:nth-child(n + 2) {
-  margin-top: rem(30);
+  margin-top: rem(31.5);
   @include mq(md) {
     margin-top: initial;
     margin-left: rem(20);

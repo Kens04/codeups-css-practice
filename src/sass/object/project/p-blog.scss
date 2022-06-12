@@ -2,8 +2,12 @@
 
 .p-blog {
   position: relative;
-  padding-top: rem(60);
-  padding-bottom: rem(140);
+  padding-top: rem(40);
+  padding-bottom: rem(141);
+  @include mq(md) {
+    padding-top: rem(60);
+    padding-bottom: rem(140);
+  }
 }
 
 .p-blog::before {
@@ -27,11 +31,14 @@
 }
 
 .p-blog__subtitle {
-  margin-top: rem(-3);
+  @include mq(md) {
+    margin-top: rem(-3);
+  }
 }
 
 .p-blog-block {
-  margin-top: rem(20);
+  margin-top: rem(18);
+  line-height: 1.48;
   text-align: center;
   @include mq(md) {
     margin-top: rem(46);
@@ -47,7 +54,7 @@
 }
 
 .p-blog__card {
-  margin: rem(20) auto 0 auto;
+  margin: rem(17) auto 0 auto;
   @include mq(md) {
     display: flex;
     justify-content: center;

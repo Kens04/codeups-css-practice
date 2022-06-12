@@ -16,11 +16,20 @@
 }
 
 .p-news__subtitle {
-  margin-top: rem(-1);
+  line-height: 1.4;
+  @include mq(md) {
+    margin-top: rem(-1);
+    line-height: initial;
+  }
 }
 
 .p-news__textblock {
-  margin-top: rem(36);
+  margin-top: rem(27);
+  line-height: 1.45;
+  @include mq(md) {
+    margin-top: rem(36);
+    line-height: initial;
+  }
 }
 
 .p-news__text {
@@ -35,7 +44,7 @@
 }
 
 .p-news-card-box {
-  margin-top: rem(30);
+  margin-top: rem(28);
   @include mq(md) {
     display: flex;
     justify-content: center;
@@ -50,8 +59,14 @@
 .p-card-news__body {
   padding-top: rem(20);
   padding-right: rem(20);
-  padding-bottom: rem(20);
+  padding-bottom: rem(20.5);
   padding-left: rem(60);
+  @include mq(md) {
+    padding-top: rem(20);
+    padding-right: rem(20);
+    padding-bottom: rem(20);
+    padding-left: rem(60);
+  }
 }
 
 .p-news-card__border {
@@ -89,7 +104,7 @@
 .p-news__button {
   background-color: $btn_color;
   color: $white;
-  padding: rem(15.5) rem(81.3);
+  padding: rem(15.5) rem(81);
   @include mq(md) {
     padding: rem(18) rem(100) rem(18) rem(100);
   }
