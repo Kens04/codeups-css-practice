@@ -34,7 +34,7 @@
   line-height: 1.4;
   @include mq(md) {
     margin-top: rem(-3);
-    line-height: initial;
+    line-height: 1.57;
   }
 }
 
@@ -42,6 +42,7 @@
   margin-top: rem(8);
   line-height: 1.45;
   @include mq(md) {
+    line-height: 1.5;
     margin-top: rem(-4);
   }
 }
@@ -123,8 +124,8 @@
     width: 100vw;
     margin-top: rem(78);
     margin-left: calc(50% - 50vw);
-    padding-left: rem(15);
-    padding-right: rem(15);
+    padding-left: rem(21);
+    padding-right: rem(21);
   }
 }
 

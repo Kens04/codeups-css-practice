@@ -58,8 +58,7 @@ body {
 @media screen and (min-width: 768px) {
   .p-works__subtitle {
     margin-top: -0.1875rem;
-    line-height: normal;
-    line-height: initial;
+    line-height: 1.57;
   }
 }
 
@@ -70,6 +69,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .p-works__textblock {
+    line-height: 1.5;
     margin-top: -0.25rem;
   }
 }
@@ -166,8 +166,8 @@ body {
     width: 100vw;
     margin-top: 4.875rem;
     margin-left: calc(50% - 50vw);
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
+    padding-left: 1.3125rem;
+    padding-right: 1.3125rem;
   }
 }
 

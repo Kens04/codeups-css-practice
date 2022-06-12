@@ -339,7 +339,7 @@ select::-ms-expand {
 
 @media screen and (min-width: 768px) {
   .l-blog {
-    margin-top: 2.5rem;
+    margin-top: 2.625rem;
   }
 }
 
@@ -370,8 +370,8 @@ select::-ms-expand {
 
 @media screen and (min-width: 768px) {
   .l-staff-blog {
-    margin-top: 4.9375rem;
-    margin-bottom: 5rem;
+    margin-top: 5.0625rem;
+    margin-bottom: 5.125rem;
   }
 }
 
@@ -385,7 +385,7 @@ select::-ms-expand {
 }
 @media screen and (min-width: 768px) {
   .l-works {
-    margin-top: 5rem;
+    margin-top: 5.0625rem;
     padding-bottom: 8.75rem;
   }
 }
@@ -976,8 +976,7 @@ select::-ms-expand {
 @media screen and (min-width: 768px) {
   .p-works__subtitle {
     margin-top: -0.1875rem;
-    line-height: normal;
-    line-height: initial;
+    line-height: 1.57;
   }
 }
 
@@ -988,6 +987,7 @@ select::-ms-expand {
 }
 @media screen and (min-width: 768px) {
   .p-works__textblock {
+    line-height: 1.5;
     margin-top: -0.25rem;
   }
 }
@@ -1084,8 +1084,8 @@ select::-ms-expand {
     width: 100vw;
     margin-top: 4.875rem;
     margin-left: calc(50% - 50vw);
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
+    padding-left: 1.3125rem;
+    padding-right: 1.3125rem;
   }
 }
 
