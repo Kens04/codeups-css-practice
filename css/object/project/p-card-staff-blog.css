@@ -55,15 +55,15 @@ body {
           transition-delay: 0s, 0.4s;
 }
 
-.p-card-staff-blog__body:hover .c-card-blog__title {
+.p-staff-blog-card__block:hover .c-card-blog__title {
   color: #F7F7F7;
 }
 
-.p-card-staff-blog__body:hover .c-card-blog__text {
+.p-staff-blog-card__block:hover .c-card-blog__text {
   color: #F7F7F7;
 }
 
-.p-card-staff-blog__body:hover::after {
+.p-staff-blog-card__block:hover .p-card-staff-blog__body::after {
   opacity: 1;
   -webkit-transform: translateY(-50%) scale(1.1);
           transform: translateY(-50%) scale(1.1);
